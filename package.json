@@ -5,8 +5,7 @@
   "main": "index.js",
   "repository": "https://github.com/madflow/vue-bootstrap4-template",
   "author": "madflow",
-  "license": "MIT",
-  "private": false,
+  "private": true,
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.4",
@@ -39,7 +38,8 @@
   },
   "scripts": {
     "dev": "webpack-dev-server --mode development",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "test": "yarn run build"
   },
   "browserslist": ["> 1%", "last 2 versions", "not ie <= 8"]
 }
