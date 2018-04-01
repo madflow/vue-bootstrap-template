@@ -1,0 +1,45 @@
+{
+  "name": "vue-bootstrap4-template",
+  "version": "1.0.0",
+  "description": "A Vue template with Vue-Bootstrap and Webpack 4",
+  "main": "index.js",
+  "repository": "https://github.com/madflow/vue-bootstrap4-template",
+  "author": "madflow",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "caniuse-lite": "^1.0.30000821",
+    "clean-webpack-plugin": "^0.1.19",
+    "css-loader": "^0.28.11",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "html-webpack-plugin": "^3.1.0",
+    "node-sass": "^4.8.3",
+    "postcss-cssnext": "^3.1.0",
+    "postcss-import": "^11.1.0",
+    "postcss-loader": "^2.1.3",
+    "postcss-smart-import": "^0.7.6",
+    "postcss-url": "^7.3.1",
+    "sass-loader": "^6.0.7",
+    "style-loader": "^0.20.3",
+    "url-loader": "^1.0.1",
+    "vue-loader": "^14.2.2",
+    "vue-template-compiler": "^2.5.16",
+    "webpack": "^4.4.1",
+    "webpack-cli": "^2.0.13"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "bootstrap-vue": "^2.0.0-rc.4",
+    "popper.js": "^1.14.1",
+    "vue": "^2.5.16",
+    "vue-router": "^3.0.1"
+  },
+  "scripts": {
+    "dev": "webpack-dev-server --mode development",
+    "build": "webpack --mode production"
+  },
+  "browserslist": ["> 1%", "last 2 versions", "not ie <= 8"]
+}
